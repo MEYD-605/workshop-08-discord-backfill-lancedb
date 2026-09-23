@@ -1,6 +1,4 @@
-*.lance/
 node_modules/
-dist/
 data/
 *.db
 *.db-wal

@@ -1,0 +1,20 @@
+{
+  "name": "workshop-08-discord-backfill-lancedb-no6",
+  "version": "1.0.0",
+  "description": "No.6 Gemini submission: Discord Backfill with LanceDB & Interactive Web UI with Benchmark Comparison",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.ts",
+    "backfill": "bun src/backfill.ts",
+    "benchmark": "bun src/benchmark.ts",
+    "test": "bun test tests/"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.39.0",
+    "apache-arrow": "18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
